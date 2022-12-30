@@ -7,6 +7,12 @@ console.log("I watched "+ myWatchedSeriesLenght + "series :" ,myWatchedSeries[0]
 
 myWatchedSeries.splice(2,0,"friends")
 myWatchedSeries.push("See")
+
+/**********************************************************
+Correcteur: Yannick GOUGUIA
+il faut bien fermer tes fonctions
+
+*********************************************************/
 myWatchedSeries.unshift("24H"Chrono)
 myWatchedSeries.shift()
 console.log(myWatchedSeries[1])
